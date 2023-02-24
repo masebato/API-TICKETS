@@ -1,0 +1,21 @@
+﻿version: '3.9'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - Server=local
+      - Database=APITICKETS
+    depends_on:
+      - db
+  db:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "sa_password"
+      ACCEPT_EULA: "Y"

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-TICKETS", "API-TICKETS\API-TICKETS.csproj", "{0383A011-0E05-49C1-8C09-2FA0813B2AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-TICKETS-TEST", "API-TICKETS-TEST\API-TICKETS-TEST.csproj", "{3975AC35-17B3-4D4B-A456-AA56EB03E0AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0383A011-0E05-49C1-8C09-2FA0813B2AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0383A011-0E05-49C1-8C09-2FA0813B2AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0383A011-0E05-49C1-8C09-2FA0813B2AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0383A011-0E05-49C1-8C09-2FA0813B2AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3975AC35-17B3-4D4B-A456-AA56EB03E0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3975AC35-17B3-4D4B-A456-AA56EB03E0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3975AC35-17B3-4D4B-A456-AA56EB03E0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3975AC35-17B3-4D4B-A456-AA56EB03E0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01F37F84-5193-4C4A-B328-8486FFE57918}
+	EndGlobalSection
+EndGlobal
